@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang='en' class=''>
+
+<head>
+
+  <meta charset='UTF-8'>
+  <title>CodePen Demo</title>
+
+  <meta name="robots" content="noindex">
+
+  <link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+  <link rel="mask-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+  <link rel="canonical" href="https://codepen.io/jcampisi13/pen/dyRryer?editors=1100">
+
+  
+  
+
+  <style class="INLINE_PEN_STYLESHEET_ID">
+    :root{
+
+  color:black;
+  font-family:sans-serif;
+  text-align:center;
+  background: linear-gradient(45deg, red, orange,yellow,green, blue, purple)
+}
+#title{
+  text-align:center;
+
+}
+h1{
+  font-size:30px;
+}
+  </style>
+
+  
+<script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeConsoleRunner-d8236034cc3508e70b0763f2575a8bb5850f9aea541206ce56704c013047d712.js"></script>
+<script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRefreshCSS-4793b73c6332f7f14a9b6bba5d5e62748e9d1bd0b5c52d7af6376f3d1c625d7e.js"></script>
+<script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRuntimeErrors-4f205f2c14e769b448bcf477de2938c681660d5038bc464e3700256713ebe261.js"></script>
+</head>
+
+<body>
+  <main>
+  <h1 id="title">Programming Survey</h1>
+  <p id="description">Thank you for assisting us with our survey today. We are inquiring on different journeys to take as newbie interest in learning to code. </p>
+</main>
+<div></div>
+<form id="survey-form">    
+<p>
+  <label for="name" id="name-label">Name:
+  <input 
+         type="text" 
+         id="name" 
+         placeholder="Type first and last name"
+         required 
+ </label>
+         </p>
+<p>
+    <label for="email" id="email-label">Email 
+  <input 
+         type="email" 
+         id="email" 
+         id="email-label"
+         required
+         placeholder="Type email address">
+         </label>
+      </p>
+<p> 
+    <label for="number" id="number-label">Age
+  <input 
+         type="number" 
+         required 
+         min="10" 
+         max="120" 
+         id="number-label"
+         placeholder="Age">
+  </label>
+         </p>
+  <p>Average hours spent coding per a week 
+    <input 
+           type="number" 
+           id="number"
+           placeholder="Hours coding per week"
+           min="0"
+           max="100"></p>
+  <p>First coding language (assuming after HTML & CSS)</p>
+      <input type="radio" 
+             name="first coding language"
+             value="JavaScript">
+  <label for="javascript">JavaScript </label> 
+<input 
+       type="radio"
+       name="first coding language"
+       value="Python">
+  <label for="python"> Python</label> 
+      <input 
+             type="radio"
+             name="first coding language"
+             value="Java">
+  <label for="java">Java</label>  
+  <input 
+         type="radio"
+         name="first coding language"
+         value="RubyRails">
+  <label for="rubyrails">Ruby Rails</label>
+  <p>Select one or more of the following that applied to your learning journey</p>
+  <input type="checkbox" value="FCC">Free Code Camp
+  <input type="checkbox" value="TOP">The Odin Project
+  <input type="checkbox" value="College">College Coursework (fast track, AS,BS)
+  <input type="checkbox" value="Bootcap">Bootcamp
+  <p>Years learning before first Web Development Job</p>
+<p>
+<select id="dropdown">
+  <option name="lessyear" value="lessyear">Less then 1 Year</option>
+    <option name="1-2years" value="1-2years">1-2 Years</option>
+    <option name="2-3years" value="2-3years">2-3 Years</option>
+    <option name="3-4years" value="3-4years">3-4 Years</option>
+  </select>
+         </p>
+  <p>
+   Additional Comments:</p>
+<p> 
+  <textarea></textarea>
+</p>
+<p>
+  <button 
+          type="submit" 
+          id="submit">Submit
+  </button>
+  </p>
+  </form>
+  
+<script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <script  src="https://cdpn.io/cp/internal/boomboom/pen.js?key=pen.js-bace3043-e88e-ad0a-8eac-780c1773adc9" crossorigin></script>
+</body>
+
+</html>
